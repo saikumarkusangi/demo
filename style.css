@@ -1,0 +1,32 @@
+
+ header {
+         
+        display:flex
+      }
+
+      
+      @media screen and (min-width: 900px) {
+         header {
+        flex-direction: column
+         }
+      }
+
+      ul li{
+    
+        list-style: none;
+      }
+@media screen and (min-width: 900px) {
+         ul li {
+        font-size: 50px;
+        line-height: 5;
+        text-align: center;
+       
+         }
+      }
+    nav{
+        background-color: peru;
+        width: 55%;
+        padding-top: 100%;
+        
+    }
+     
